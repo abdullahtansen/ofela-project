@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* header top start here */
+#header-top{
+    background: #08A063;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 0px !important;
+}
+
+.logins{
+    padding-top: -10px;
+}
+
+.userlogin{
+    background: #D35400;
+    padding: 5px 5px 8px 8px;
+    border-radius: 3px !important;
+}
+
+.userregister{
+    background: #D35400;
+    padding: 5px 5px 8px 8px;
+    border-radius: 3px !important;
+}
+.searchinput :focus {
+    box-shadow: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  .dropdown a:focus{
+      outline: none;
+      box-shadow: none;
+  }
+/* header top End here */
+
+/* off Canvas Start Here */
+#offcanvas_id{
+    position: relative;
+}
+
+#offcanvas_id .uk-position-fixed{
+    position: absolute;
+    right: 12px;
+    bottom: 50%;
+    z-index: 999;
+}
+.offcanvas-header{
+    background: #08A063;
+}
+.offcanvas-header p{
+    font-family: sans-serif;
+    color: rgba(242, 224, 224, 0.786);
+    font-size: 22px;
+    margin-left: 35%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.offcanvas-header{
+    color: rgba(242, 224, 224, 0.786) !important;
+}
+.offcanvas-footer{
+    background: #08A063;
+    padding: 6px 0;
+    text-align: center;
+    color: rgba(242, 224, 224, 0.986);
+    font-size: 28px;
+}
+
+/* off Canvas Start Here */
+
+/* Main section start here */
+.section-heading h3{
+    text-align: center;
+}
+
+.section-heading {
+    color: 000 !important;
+    position: relative;
+}
+
+.section-heading::after {
+    content: "";
+    position: absolute;
+    width: 158px;
+    height: 2px;
+    background-color: black;
+    left: 44%;
+    bottom: -4px;
+}
+/* Main section End here */
+
+.my-slider a{
+    text-decoration: none;
+    color: black;
+}
+.cbody{
+    background: #f1f1f1;
+    font-family: ui-rounded !important;
+}
+.my-slider .card{
+    margin: 15px;
+}
+
+.my-slider a{
+    font-size: 18px;
+}
+.my-slider span {
+    font-size: 18px;
+}
+.my-slider .ozon {
+    background: green;
+    color: white;
+    height: 50px;
+    width: 55px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 5px; 
+}
+
+.my-slider .pricing{
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: medium;
+    color: #FBA843;
+    padding: 5px; 
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.footer2 a {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+/* Main2 Start Here */
+#main2 .prdoucts{
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+#main2 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+#main2 .ozon {
+    background: green;
+    color: white;
+    height: 50px;
+    width: 55px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+
+#main2 .pricing {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: medium;
+    color: #FBA843;
+    padding: 5px; 
+}
+/* Main2 End Here */
+
+.container-fluid .carousel-inner {
+    padding-top: 15px;
+}
+
+.section-heading3 h3{
+    font-family: 'Stint Ultra Condensed', cursive;
+    text-align: center;
+}
+
+.section-heading3 {
+    color: 000 !important;
+    position: relative;
+}
+
+.section-heading3::after {
+    content: "";
+    position: absolute;
+    width: 69px;
+    height: 2px;
+    background-color: black;
+    left: 47%;
+    bottom: -4px;
+}
+
+/* Review Section Start Here */
+.c-image{
+    position: absolute;
+    left: 39%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.review{
+    margin-top: 75px;
+}
+/* Review Section End Here */
+
+/* Footer Section Start Here */
+#footer-top{
+    background: #08A063;
+    padding: 15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 248, 248, 0.785);
+}
+#footer-top .footer-heading{
+    color: rgba(44, 44, 44, 0.548);
+}
+#footer-top  li {
+    list-style-type: none;
+}
+#footer-top  li a {
+    text-decoration: none;
+    color: rgba(255, 248, 248, 0.785);
+}
+#footer-top i{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 145%;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+#footer-top i:hover{
+   color: rgba(255, 255, 255, 0.734); 
+}
+#footer-bottom{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #8ef8ce;
+    padding: 10px 0;
+    color: rgba(172, 62, 62, 0.795);
+}
+#footer-bottom h4:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #8ef8ce;
+    color: rgba(62, 172, 121, 0.795);
+    transition: 0.5s;
+}
+/* Footer Section End Here */
+
+/* Demo login Start Here */
+.login-heading {
+    background: url("../img/pro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 50px;
+    height: 160px;
+}
+
+.login-heading span{
+    text-align: center;
+    font-weight: normal;
+    color: green;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #008000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.login-heading {
+    color: #fff !important;
+    position: relative;
+}
+
+.login-heading::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #D3D3D3;
+    left: 47%;
+    bottom: 55px;
+}
+.header span{
+    color: black;
+    font-weight: medium;
+}
+ /* All Products */
+.products-heading h3 {
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 25px;
+    color: #585858;
+    font-family: sans-serif;
+}
+
+.products-heading{
+    background: url(../img/pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 50px;
+    height: 160px;
+}
+
+.products-heading span{
+    text-align: center;
+    font-weight: normal;
+    color: green;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #008000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.products-heading {
+    color: #fff !important;
+    position: relative;
+}
+
+.products-heading::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #D3D3D3;
+    left: 47%;
+    bottom: 55px;
+}
+
+.sidemenu {
+    padding-left: 15px;
+    font-family: monospace;
+}
+
+.sidemenu h5 {
+    color: green;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidemenu ul li {
+    list-style-type: none;
+}
+
+.products-title a {
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.products-title .ozon {
+    background: green;
+    color: white;
+    height: 50px;
+    width: 55px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+
+.products-title .pricing {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: medium;
+    color: #FBA843;
+    padding: 5px;
+}
+/* Product Page */
+.myproduct {
+    font-family: 'SolaimanLipi', sans-serif;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: inherit;
+    background-size: cover;
+}
+
+.main-layer {
+    width: auto;
+    height: auto;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgba(19, 17, 17, 0.705);
+    border: 1px solid #e7eaed;
+    border-radius: 2px;
+}
+
+.description p{
+    text-align: justify;
+}
+
+/* About page Start Here */
+#about p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#about h4{
+    text-align: center;
+    font-weight: bold;
+    color: #585858;
+    font-family: 'Montserrat';
+}
+
+/* Blog Page Start Here */
+
+#blog ul li a {
+    color: white;
+}
+.blog-heading {
+    text-align: center;
+    height: 130px;
+    width: auto;
+    padding-top: 50px;
+}
+
+.blog-heading h1 {
+    text-align: center;
+    font-weight: bold; 
+    color: darkgreen; 
+    font-family: 'Montserrat';
+}
